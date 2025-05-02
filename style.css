@@ -82,26 +82,49 @@ header {
 
     display: flex;
     gap: 10%;
- 
+    align-items: center;
+    h3{
+        color: #401D10;
+        font-family: poppins;
+        font-size: xxx-large;
+    }
    
  }
+ .subscription button{
+    margin-top: 1vh;
+    height: 5vh;
+    width: 30vw;
+    height: 5vh; 
+    background-color: #401D10;
+    color: white;
+    border: none;
+    font-family: poppins;
+    font-size: large;
 
-/* {
-    /* width: 100%;
-    gap:10px;
-   display: flex;
-   
-  
-} */
+ }
+ .subscription button:hover{
+  background-color: #6b3c2b;
+    color: white;
+ }
+ .self-image input{
+    width: 30vw;
+    height: 5vh;    
+ }
+ #contact-email{
+   padding-top: 2vh;
+ }
+.self-image label{
+    color: #401D10;
 
+}
 .left-side{  
 padding-left: 7%;
 width: 22%;
 
 }
 
-.left-contnet{
-     
+.left-content{
+     font-family: poppins;
     padding-left: 7%;
     line-height: 1;
     padding-top: 70px;
@@ -142,6 +165,8 @@ width: 22%;
 
 
 .about-self{
+
+    font-family: poppins;
     padding-left: 7%;
     width:80% ;
 height: 130px;
@@ -149,19 +174,6 @@ overflow-y: hidden;
 overflow-y: scroll;
 overflow-x: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .intro{
     padding: 1px;
     text-align: center;
@@ -190,6 +202,7 @@ h2 {
 }
 
 .content-book {
+    
     font-family:'poppins';
     margin-top: 10%;
     margin-left: 20%;
@@ -214,9 +227,9 @@ font-family:'poppins';
 .booksread img{
   
   
-    padding-left: 20%;
-    width: 100px;
-    height: 100px;
+    padding-left: 10%;
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -377,66 +390,131 @@ footer{
     color:black;
 }
 .about-me{
-
+    font-family:'poppins';
     border: 1px solid;
     height: 20px;
     color:  #2c3e50;
 }
 
 
-@media only screen and (max-width: 768px) {
-    body{
-       
-        width: 100vw;
-        overflow-x: hidden;
-        flex-direction: column;
-        font-size: small;
+@media only screen and (max-width: 750px) {
+
+.flowers{
+    top:-105%;
+    
+}
+.flowers h1{
+    font-size: 45px;
+}
+
+    .flowers img{
+
+                width: 200px;
     }
-    .listOfimages{
+    .header{
+        font-size: 9px;
+    }
+
+
+    .listOfimages img{
+      
+        width: 50px;
+        height:50px;
+        
+    }
+
+
+.content-book{
+
+    margin-left: 2%;
+ 
+   
+}
+
+
+
+.booksread{
+    display: flex;
+}
+
+
+.booksread img{
+    width:100px;
+    height:100px;
+
+}
+
+.left-side{
+
+}
+
+.entry{
+    h1{
+        font-size: 4px;
+    }
+}
+.subscription{
+    h3{
+        font-size: 15px;
+    }
+}   
+
+
+.left-content{
+    img{
         width: 100px;
         height: 100px;
     }
-   
-
-    .content-book{
-        
-        margin-left: 2%;
- 
+    p{
+        font-size: 17px;
     }
-
-    .disappear{
-        display: none;
-     }
-.footer{
-    overflow: hidden;
-    height: 100px;
- max-width: 10vw;
- 
 }
+.about-self{
+
+    p{
+        font-size: 17px;
+    }
+}
+.self-image input{
+    width: 55vw;
+    height: 3vh;    
+ }
+
 
 .social-platforms{
+ right: 1%;
+ gap: 2%;
     
-     bottom: 2%;
 
-    a{
-           position: absolute;
-        z-index: 5;
-        color: blue;
-        text-decoration: none;
-        cursor: pointer;
-    }
 
 }
-
-#socials a{
-    font-size: 20px;
-}
-.social-platforms a{
-    
+#socials{
+    font-size: 10px;
 }
 
 
 
 
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
