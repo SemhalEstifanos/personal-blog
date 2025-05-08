@@ -39,7 +39,19 @@ header {
         color: #401D10;
     }
 }
+.backtohome{
+    gap: 6%;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+   
+  
 
+
+
+}
 .navbar{
   
     
@@ -56,6 +68,30 @@ header {
 
 
 }
+#homeoption{
+    text-align: center;
+    width: 12%;
+    border: 10px rgb(141, 88, 44) solid;
+    background-color: #e0c38c;
+}
+#aboutoption{
+    border: 10px rgb(141, 88, 44) solid;
+    background-color: #e0c38c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .flowers{
     h1{
